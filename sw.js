@@ -1,7 +1,7 @@
 /* Fablix ERP — PWA service worker (shell cache + offline fallback).
    NOTE: Sirf apni-origin (wrapper) files cache karta hai. Google Apps Script
    (cross-origin) requests hamesha network se jaati hain — data ke liye net chahiye. */
-const CACHE = 'fablix-shell-v1';
+const CACHE = 'fablix-shell-v2';
 const ASSETS = [
   './',
   './index.html',
